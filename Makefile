@@ -1,7 +1,7 @@
 .PHONY: clean test
 
-ssort: swap.c main.c
-	gcc -Wall -g swap.c main.c -o ssort -lcs50 -lm 
+ssort: newswap.c main.c
+	gcc -Wall -g newswap.c main.c -o ssort -lcs50 -lm 
 
 test: ssort
 	./ssort
